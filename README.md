@@ -35,9 +35,9 @@ Azure AI Service <br>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
 
-<b>Azure MySQL Dtatabase :</b><br><p align="justify">To store and manage recent search history, the project employs Azure SQL Database. This relational database service ensures data consistency, integrity, and enables efficient querying, making it ideal for tracking and displaying user interactions.</p>
-<h2>Azure AI Service</h2>
-<b>Azure AI Translator Service :</b><br><br><p align="justify">The core of the translation functionality is powered by Azure AI Translator service. This service employs advanced natural language processing algorithms to provide accurate and contextually relevant translations across a wide array of languages.</p>
+<b>Azure Blob Service :</b><br><p align="justify">Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
+<h2>Azure AI Custom Vision Service</h2>
+<b>Azure AI Custom Vision Service :</b><br><br><p align="justify">Azure Custom Vision is a cloud-based service provided by Microsoft as part of the Azure Cognitive Services suite. It is designed to help developers build custom image classification models without the need for extensive machine learning expertise. The service leverages pre-trained deep learning models and allows you to train a model using your own image datasets.</p>
 <h2>Other Azure Technologies / Services</h2>
 <p align="justify">In the Multilingual Content Hub, Azure Monitor and Azure Application Insights collaboratively form a dynamic duo, meticulously overseeing application health and person stories.</p>
 
