@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Detection</title>
+    <link rel="stylesheet" href="/static/style/styles.css">
+</head>
+<body>
+    <h1>Fruit Detection</h1>
+    <form action="/upload" method="post">
+        <label for="file">Select an image:</label>
+        <select name="file">
+            {% for image in image_list %}
+                <option value="{{ image }}">{{ image }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

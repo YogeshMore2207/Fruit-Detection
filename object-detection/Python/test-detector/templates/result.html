@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Result</title>
+    <link rel="stylesheet" href="/static/style/styles.css"> <!-- Fix the typo in the stylesheet link -->
+</head>
+<body>
+    <h1>Object Detection Result</h1>
+    {% if fruit_names and result_image %}
+        {% for fruit_name in fruit_names %}
+            <p>Detected Fruit: {{ fruit_name }}</p>
+        {% endfor %}
+        <img src="{{ result_image }}" alt="Detected Image">
+    {% elif error_message %}
+        <p>Error: {{ error_message }}</p>
+    {% else %}
+        <p>No fruit detected or error processing the image.</p>
+    {% endif %}
+
+</body>
+</html>
