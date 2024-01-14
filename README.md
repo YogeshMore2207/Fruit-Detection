@@ -1,5 +1,5 @@
 <h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
-<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Multilingual Content Hub - VOX Translation Web App using Azure AI Translation Service.</b></a>
+<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Automated Fruit Detection System for Image Analysis.</b></a>
 <br>
 <h2>Project Details</h2>
 <b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
@@ -10,24 +10,27 @@
 <h3>
 Core Azure Services : <br>
 1. Azure App Service <br>
-2. Azure SQL Database <br> <br>
+2. Azure Blob Service  <br> <br>
 Azure AI Service <br>
-1. Azure AI Translator Service
+1. Azure AI Custom Vision Service
 </h3>
 <h2>Problem Statement</h2>
-<p align="justify">In our increasingly more interconnected global, the need for seamless verbal exchange throughout language boundaries is extra important than ever. The assignment lies in offering a consumer-friendly platform wherein people can without difficulty translate content while maintaining a report in their interactions. The possibility is to create an green, scalable solution that addresses language translation desires and complements consumer revel in with the aid of incorporating recent search records.</p>
+<p align="justify">The manual inspection and classification of fruits in large quantities can be time-consuming, error-prone, and labor-intensive. Traditional methods lack efficiency and precision, leading to challenges in quality control and timely decision-making. The need for an automated fruit detection system arises to address these challenges and enhance the overall productivity of fruit-related industries.</p>
 <h2>Project Description</h2>
-<p align="justify">The "Multilingual Content Hub - VOX" is a web application designed to facilitate language translation and maintain a history of person interactions. Users can enter text, and the gadget leverages Azure AI Translator service to provide accurate and contextually relevant translations. The software additionally consists of a characteristic to show recent searches, allowing users to revisit and reuse previous translations easily.</p><br>
+<p align="justify">The Automated Fruit Detection System is a computer vision application designed to automatically identify and classify fruits in images. Leveraging state-of-the-art machine learning techniques, the system aims to streamline processes in agriculture, inventory management, and food processing industries. Users can upload images containing fruits, and the system will provide accurate detection and classification results.</p><br>
 <b>Key Features :</b>
 <ul>
-    <li>Seamless Language Translation</li>
+    <li>Automated Fruit Detection</li>
     <li>User-Friendly Interface</li>
-    <li>History Tracking and Recent Searches</li>
+    <li>Real-time Processing</li>
+    <li>Accuracy and Reliability</li>
     <li>Azure App Service Hosting</li>
-    <li>Azure SQL Database for Efficient Data Management</li>
+    <li>Azure Blob Service for Efficient Data Management</li>
 </ul>
 <b>Future Enhancements :</b><br>
-<p align="justify">The Multilingual Content Hub isn't only a standalone venture but a foundation for ability future enhancements. Integrations with additional Azure offerings, which includes Azure Storage for coping with multimedia content and Azure Key Vault for more suitable security, could be explored. Moreover, monitoring and analytics via Azure Monitor and Azure Application Insights pave the manner for continuous improvement and optimization.</p>
+ Markup : * Integration with mobile applications for on-the-go fruit detection.
+          * Implementation of more advanced machine learning models for improved accuracy.
+          * Support for real-time video analysis.
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
 
