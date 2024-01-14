@@ -27,10 +27,11 @@ Azure AI Service <br>
     <li>Azure App Service Hosting</li>
     <li>Azure Blob Service for Efficient Data Management</li>
 </ul>
-<b>Future Enhancements :</b><br>
- Markup : * Integration with mobile applications for on-the-go fruit detection.
-          * Implementation of more advanced machine learning models for improved accuracy.
-          * Support for real-time video analysis.
+<b>Future Enhancements :</b>
+<ul>
+    <li>Integration with mobile applications for on-the-go fruit detection.</li>
+    <li>Implementation of more advanced machine learning models for improved accuracy.</li>
+    <li>Support for real-time video analysis.</li>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
 
