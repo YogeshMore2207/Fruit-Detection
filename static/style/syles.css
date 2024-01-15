@@ -29,10 +29,9 @@ a {
             color: #ffffff;
             text-decoration: none;
             border-radius: 5px;
-        }
-
-        a:hover {
+}
+a:hover {
             background-color: #0d47a1;
-        }
+}
 
 /* Add more styles as needed */
