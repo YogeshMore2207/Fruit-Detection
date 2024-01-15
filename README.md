@@ -10,7 +10,7 @@
 <h3>
 Core Azure Services : <br>
 1. Azure App Service <br>
-2. Azure Storage Account(Blob Service)  <br> <br>
+2. Azure Storage Account(Blob Storage)  <br> <br>
 Azure AI Service <br>
 1. Azure AI Custom Vision Service
 </h3>
@@ -35,7 +35,7 @@ Azure AI Service <br>
 <h2>Core Azure Services</h2>
 <b>Azure App Service :</b><br><p align="justify"><br>The project utilizes Azure App Service to host the web application, ensuring scalability, reliability, and ease of deployment. This service enables seamless integration with other Azure components and provides a secure environment for the application.</p>
 
-<b>Azure Blob Service :</b><br><p align="justify">Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
+<b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
 <h2>Azure AI Custom Vision Service</h2>
 <b>Azure AI Custom Vision Service :</b><br><br><p align="justify">Azure Custom Vision is a cloud-based service provided by Microsoft as part of the Azure Cognitive Services suite. It is designed to help developers build custom image classification models without the need for extensive machine learning expertise. The service leverages pre-trained deep learning models and allows you to train a model using your own image datasets.</p>
 <h2>Other Azure Technologies / Services</h2>
