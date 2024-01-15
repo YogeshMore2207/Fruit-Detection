@@ -10,7 +10,7 @@
 <h3>
 Core Azure Services : <br>
 1. Azure App Service <br>
-2. Azure Blob Service  <br> <br>
+2. Azure Storage Account(Blob Service)  <br> <br>
 Azure AI Service <br>
 1. Azure AI Custom Vision Service
 </h3>
