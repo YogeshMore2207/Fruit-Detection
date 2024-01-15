@@ -1,4 +1,4 @@
-Flask==2.0.2
+Flask
 azure-cognitiveservices-vision-customvision
 msrest==0.6.21
 Pillow
