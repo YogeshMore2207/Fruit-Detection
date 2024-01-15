@@ -4,3 +4,4 @@ msrest==0.6.21
 Pillow
 python-dotenv==0.19.0
 azure-storage-blob
+Werkzeug==2.2.2
