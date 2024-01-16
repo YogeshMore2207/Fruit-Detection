@@ -17,7 +17,7 @@ Azure AI Service <br>
 <h2>Problem Statement</h2>
 <p align="justify">The manual inspection and classification of fruits in large quantities can be time-consuming, error-prone, and labor-intensive. Traditional methods lack efficiency and precision, leading to challenges in quality control and timely decision-making. The need for an automated fruit detection system arises to address these challenges and enhance the overall productivity of fruit-related industries.</p>
 <h2>Project Description</h2>
-<p align="justify">The Automated Fruit Detection System is a computer vision application designed to automatically identify and classify fruits in images. Leveraging state-of-the-art machine learning techniques, the system aims to streamline processes in agriculture, inventory management, and food processing industries. Users can upload images containing fruits, and the system will provide accurate detection and classification results.</p><br>
+<p align="justify">The Automated Fruit Detection System is a custom vision application designed to automatically identify and classify fruits in images. Leveraging state-of-the-art machine learning techniques, the system aims to streamline processes in agriculture, inventory management, and food processing industries. Users can upload images containing fruits, and the system will provide accurate detection and classification results.</p><br>
 <b>Key Features :</b>
 <ul>
     <li>Automated Fruit Detection</li>
@@ -48,13 +48,13 @@ Azure AI Service <br>
     - Create a Flask web application instance.
 <li>Azure Blob Storage Integration:</li>
     - Use the Azure Storage SDK to interact with Azure Blob Storage.<br>
-    - Fetch images from the specified container in Azure Blob Storage using the list_images           function.
+    - Fetch images from the specified container in Azure Blob Storage using the list_images function.
 <li>Image Processing and Object Detection:</li>
     - Implement the detect_objects function to:<br>
         - Load configuration settings and authenticate the Custom Vision Prediction client.<br>
         - Open the uploaded image using Pillow (PIL) library.<br>
         - Use the Azure Custom Vision service to detect objects in the image.<br>
-        -Draw bounding boxes around detected objects and annotate with tag names and                     probabilities.<br>
+        -Draw bounding boxes around detected objects and annotate with tag names and probabilities.<br>
         - Save the modified image with bounding boxes.
 
 <li>Flask Routes:</li>
@@ -83,17 +83,21 @@ Azure AI Service <br>
 </ol>
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
-<b>Description :</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment for the Multilingual Content Hub. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-service.png" alt="azure-app-service"></img><br>
-<h3>Azure Databse for MySQL</h3>
-<b>Description :</b><p align="justify"> The project leverages Azure Database for MySQL to efficiently manage and store user interaction history. This relational database service ensures data consistency and supports quick retrieval of information.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-db.png" alt="azure-mysql-db-service"></img><br>
-<h3>Azure AI Translator Service</h3>
-<b>Description :</b><p align="justify">Azure AI Translator Service is the engine behind the Multilingual Content Hub's language translation capabilities. It employs advanced natural language processing to deliver accurate and contextually relevant translations.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/app-ai.png" alt="azure-translator-ai-service"></img><br>
+<b>Description :</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141150.png" alt="azure-app-service"></img><br>
+<h3>Azure Storage Account(Blob Storage)</h3>
+<b>Description :</b><p align="justify"> Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141324.png" alt="azure-blob-storage-service"></img><br>
+<h3>Azure AI Custom Vision Service</h3>
+<b>Description :</b><p align="justify">The Automated Fruit Detection System is a custom vision application designed to automatically identify and classify fruits in images.</p>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141448.png" alt="azure-ai-custom-vision"></img><br>
+<h3>Azure AI Custom Vision Service Training Dataset</h3>
+<b>Description :</b><p align="justify"><b>Description :</b><p align="justify">The Automated Fruit Detection System is a custom vision application designed to automatically identify and classify fruits in images.</p></p>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141605.png" alt="trining dataset"></img><br>
 <h3>Working Live Project Display</h3>
 <b>Description :</b><p align="justify">Here I am attaching the final working website's screenshot for the reference.</p>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/final-project.png" alt="final-project-demo"></img>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141924.png"></img>
+<img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20142006.png"></img>
 
 <h3>Resource Visualizer</h3>
 <img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/flask-ai.jpg" alt="resource-display"></img>
