@@ -48,10 +48,16 @@ Azure AI Service <br>
 <b>Diagnostics Precision :</b> Traces requests comprehensively, facilitating quick identity and determination of issues at each frontend and backend degrees.
 <h2>Project Workflow</h2>
 <p align="justify">
-<b> 1. Set Up Environment:</b>    
-- Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
-- Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
+<ol>
+<li>Set Up Environment:</li>
+ - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
+ - Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
+<li>option 2</li> 
 
+    // Code example require empty line between and 4 spaces in front of the code line
+    Hello World!
+<li>option 3</li>
+</ol>
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
 <b>Description :</b><p align="justify">Azure App Service provides a scalable and reliable hosting environment for the Multilingual Content Hub. It ensures seamless deployment and high availability, facilitating an optimal user experience.</p>
