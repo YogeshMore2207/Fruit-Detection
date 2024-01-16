@@ -50,7 +50,7 @@ Azure AI Service <br>
 <p align="justify">
 <ol>
 <li>Set Up Environment:</li>
- - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
+ - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.<br>
  - Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
 <li>option 2</li> 
 
