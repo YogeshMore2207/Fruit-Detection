@@ -1,11 +1,11 @@
 <h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
-<h2>Project Title:</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Automated Fruit Detection System for Image Analysis.</b></a>
+<h2>Project Title:</h2><b><a href="https://fruitdetection.azurewebsites.net/">Automated Fruit Detection System for Image Analysis.</b></a>
 <br>
 <h2>Project Details</h2>
-<b>Project Demo URL :</b> https://aiwebappazure.azurewebsites.net/ <br>
+<b>Project Demo URL :</b> https://fruitdetection.azurewebsites.net/ <br>
 <b>Demo Video URL :</b> https://drive.google.com/file/d/1bLptg01EM3NtTRZY6j6X_FCmrwf_2TN9/view <br>
-<b>Github Repository URL :</b> https://github.com/AnkeetaGupta/flask-ai-translation.git <br>
-<b>Industry :</b> Lifestyle and Technology<br>
+<b>Github Repository URL :</b> https://github.com/YogeshMore2207/Fruit-Detection.git <br>
+<b>Industry :</b> AI and Technology<br>
 <h2>Azure Services Used</h2>
 <h3>
 Core Azure Services : <br>
@@ -46,6 +46,11 @@ Azure AI Service <br>
 <b>Azure Application Insights :</b><p align="justify">
 <b>User Interaction Insights :</b> Analyzes consumer behaviors, providing distinctive facts on trips and characteristic recognition.<br>
 <b>Diagnostics Precision :</b> Traces requests comprehensively, facilitating quick identity and determination of issues at each frontend and backend degrees.
+<h2>Project Workflow</h2>
+**Step 1: Set Up Environment:**
+
+- Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
+- Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
 
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
