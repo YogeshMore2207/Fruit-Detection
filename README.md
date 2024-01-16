@@ -99,13 +99,8 @@ Azure AI Service <br>
 <img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20141924.png"></img>
 <img src="https://github.com/YogeshMore2207/Fruit-Detection/blob/main/screenshots/Screenshot%202024-01-16%20142006.png"></img>
 
-<h3>Resource Visualizer</h3>
-<img src="https://github.com/AnkeetaGupta/flask-ai-translation/blob/main/screenshots/flask-ai.jpg" alt="resource-display"></img>
-
-<h2>Final Project Statement</h2>
+<h2>Conclusion</h2>
 <p align="justify">
-The Multilingual Content Hub redefines language connectivity by using seamlessly merging generation and linguistic finesse. This task, empowered by means of Azure's sturdy infrastructure, not most effective tackles language barriers however envisions a destiny wherein verbal exchange transcends borders.</p>
-<p align="justify">
-<b>As we finish, the Multilingual Content Hub isn't always just an utility; it's an ongoing exploration of endless communication possibilities. In this era of worldwide connectivity, this undertaking signifies a pivotal step toward a greater accessible and interconnected international.</b>
+<b>In conclusion, the project demonstrates an end-to-end workflow for building a web application that leverages Azure services for image storage and analysis, providing users with insights into the content of uploaded images.</b>
 </p> <br>
-</h2><b><a href="https://aiwebappazure.azurewebsites.net/">Multilingual Content Hub - VOX Translation Web App using Azure AI Translation Service</b></a>
+</h2><b><a href="https://fruitdetection.azurewebsites.net/">Automated Fruit Detection System for Image Analysis.</b></a>
