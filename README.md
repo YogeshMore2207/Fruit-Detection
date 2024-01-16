@@ -52,11 +52,42 @@ Azure AI Service <br>
 <li>Set Up Environment:</li>
  - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.<br>
  - Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
-<li>option 2</li> 
+<li>Initialize Flask App:</li>
+    - Create a Flask web application instance.
+<li>Azure Blob Storage Integration:</li>
+    - Use the Azure Storage SDK to interact with Azure Blob Storage.<br>
+    - Fetch images from the specified container in Azure Blob Storage using the list_images           function.
+<li>Image Processing and Object Detection:</li>
+    - Implement the detect_objects function to:<br>
+        - Load configuration settings and authenticate the Custom Vision Prediction client.<br>
+        - Open the uploaded image using Pillow (PIL) library.<br>
+        - Use the Azure Custom Vision service to detect objects in the image.<br>
+        -Draw bounding boxes around detected objects and annotate with tag names and                     probabilities.<br>
+        - Save the modified image with bounding boxes.
 
-    // Code example require empty line between and 4 spaces in front of the code line
-    Hello World!
-<li>option 3</li>
+<li>Flask Routes:</li>
+    - Define two Flask routes:<br>
+    - /: Display a list of images available in the Azure Blob Storage container on the             homepage.<br>
+    - /upload: Handle image uploads, download the selected image, process it for object             detection, and render the result on a new page.
+
+<li>Web Templates:</li>
+    - Use HTML templates (index.html and result.html) for rendering the web pages.<br>
+    - Display the list of images on the homepage, and after image upload, show the processed         image with detected object information.
+
+<li>Run the Flask App:</li>
+    - Use if __name__ == '__main__': to run the Flask application locally when the script is executed directly.
+<li>Run the Application:</li>
+- Execute the Python script to start the Flask development server.<br>
+- Access the web application in a web browser.
+
+<li>Upload and Process Images:</li>
+- Upload an image using the provided web interface.<br>
+- The application will download the selected image from Azure Blob Storage, process it using the Azure Custom Vision service, and display the result on a new webpage.
+
+<li>Display Results:</li>
+- Display the modified image with bounding boxes around detected objects.<br>
+- Show the detected object names and probabilities on the result page.
+
 </ol>
 <h2>Screenshots</h2>
 <h3>Azure App Service</h3>
