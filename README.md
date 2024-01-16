@@ -38,14 +38,6 @@ Azure AI Service <br>
 <b>Azure Storage Account(Blob Storage) :</b><br><p align="justify">Azure Blob Storage is Microsoft's object storage solution for the cloud. It allows you to store and manage large amounts of unstructured data, such as text or binary data, making it suitable for various use cases, including serving images or documents to web applications, storing backups, and more.</p>
 <h2>Azure AI Custom Vision Service</h2>
 <b>Azure AI Custom Vision Service :</b><br><br><p align="justify">Azure Custom Vision is a cloud-based service provided by Microsoft as part of the Azure Cognitive Services suite. It is designed to help developers build custom image classification models without the need for extensive machine learning expertise. The service leverages pre-trained deep learning models and allows you to train a model using your own image datasets.</p>
-<h2>Other Azure Technologies / Services</h2>
-<p align="justify">In the Multilingual Content Hub, Azure Monitor and Azure Application Insights collaboratively form a dynamic duo, meticulously overseeing application health and person stories.</p>
-
-<b>Azure Monitor :</b><p align="justify"><b>Real-time Performance Metrics :</b> Monitors vital overall performance indicators, ensuring the application runs seamlessly.<br>
-<b>Proactive Alerts :</b> Issues immediately alerts on deviations from set overall performance thresholds, enabling fast responses to capability disruptions.</p>
-<b>Azure Application Insights :</b><p align="justify">
-<b>User Interaction Insights :</b> Analyzes consumer behaviors, providing distinctive facts on trips and characteristic recognition.<br>
-<b>Diagnostics Precision :</b> Traces requests comprehensively, facilitating quick identity and determination of issues at each frontend and backend degrees.
 <h2>Project Workflow</h2>
 <p align="justify">
 <ol>
