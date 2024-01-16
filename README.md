@@ -48,22 +48,7 @@ Azure AI Service <br>
 <b>Diagnostics Precision :</b> Traces requests comprehensively, facilitating quick identity and determination of issues at each frontend and backend degrees.
 <h2>Project Workflow</h2>
 <p align="justify">
-    <li><b>Step 1:</b> User Uploads an Image:</li>
-    - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
-    - Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
-    <li><b>Step 2: </b> Image Stored in Azure Blob Storage:</li>
-    <b>The upload_to_blob_storage</b> function is called to upload the image data to a specific container in Azure Blob            Storage.</li>
-    <li><b>Step 3:</b> Retrieve Image for Analysis:</li>
-    When the user wants to view the analysis results, the application retrieves the image data from Azure Blob Storage.
-    <li><b>Step 4:</b> Encode Image Data in Base64:</li>
-    The application encodes the image data in Base64 format. This encoded image is then used for display and analysis.  
-    <li><b>Step 5:</b> Analyze Image Using Azure Computer Vision:</li> 
-    The encoded image is sent to the Azure Computer Vision API for analysis.
-    The API returns analysis results, including categories, description, and color details.<br>
-    <li><b>Step 6:</b>Display Results:</li>
-    The application extracts relevant information from the analysis results, such as image captions.
-    The result page is rendered with the analyzed information, providing insights into the content of the uploaded image.
-
+<b> 1. Set Up Environment:</b>    
 - Import necessary modules and libraries, including Flask, Azure Cognitive Services SDK, PIL (Pillow), NumPy, and others.
 - Load environment variables using dotenv for sensitive information such as Azure Storage connection strings, prediction endpoint, prediction key, project ID, and model name.
 
